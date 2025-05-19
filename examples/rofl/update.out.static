@@ -1,0 +1,43 @@
+You are about to sign the following transaction:
+Format: plain
+Method: rofl.Update
+Body:
+  {
+    "id": "rofl1qzd82n99vtwesvcqjfyur4tcm45varz2due7s635",
+    "policy": {
+      "quotes": {
+        "pcs": {
+          "tcb_validity_period": 30,
+          "min_tcb_evaluation_data_number": 17,
+          "tdx": {}
+        }
+      },
+      "enclaves": [],
+      "endorsements": [
+        {
+          "any": {}
+        }
+      ],
+      "fees": 2,
+      "max_expiration": 3
+    },
+    "admin": "oasis1qpwaggvmhwq5uk40clase3knt655nn2tdy39nz2f"
+  }
+Authorized signer(s):
+  1. sk5kvBHaZ/si0xXRdjllIOxOgr7o2d1K+ckVaU3ndG4= (ed25519)
+     Nonce: 320
+Fee:
+  Amount: 0.010145 TEST
+  Gas limit: 101450
+  (gas price: 0.0000001 TEST per gas unit)
+
+Network:  testnet
+ParaTime: sapphire (Sapphire Testnet)
+Account:  test:alice
+? Sign this transaction? Yes
+(In case you are using a hardware-based signer you may need to confirm on device.)
+Broadcasting transaction...
+Transaction included in block successfully.
+Round:            310
+Transaction hash: 2d8ef6e832256986a19d7b92dcf182976205c5247aff71487832877ff4d72edd
+Execution successful.
